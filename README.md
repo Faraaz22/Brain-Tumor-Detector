@@ -3,17 +3,11 @@
 
 This project is a deep learning-based image classification application that classifies images into two categories: "tumorous" and "non-tumorous." The model uses a pre-trained VGG19 architecture, fine-tuned with custom layers to perform binary classification. It demonstrates the use of deep learning (specifically transfer learning with VGG19) for image classification in a web application. It includes data preprocessing, model training, fine-tuning, and deploying the model using Flask for user interaction.
 
-The workflow involves:
-1. **Data Preprocessing**: Images are preprocessed and augmented to enhance the training dataset.
-2. **Model Building**: A VGG19 model is used as a feature extractor, followed by custom fully connected layers for classification.
-3. **Model Training**: The model is trained using training data, validated with a separate validation dataset, and evaluated using a test dataset.
-4. **Fine-tuning**: The model undergoes fine-tuning by unfreezing specific layers of the VGG19 model.
-5. **Model Saving/Loading**: The trained model is saved in `model.keras` and the weights are saved in the `model_weights/` directory for later use.
 
 ---
 ### **Steps to Run the Application**
 
-1.Run Brainmodel.ipynb in jupyter notebook with the data set to create the Model Weights
+  1.Run Brainmodel.ipynb in jupyter notebook with the data set to create the Model Weights
 
 2. Install the dependencies by running:
    ```
