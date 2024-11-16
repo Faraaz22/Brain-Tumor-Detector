@@ -7,7 +7,7 @@ This project is a deep learning-based image classification application that clas
 ---
 ### **Steps to Run the Application**
 
-  1.Run Brainmodel.ipynb in jupyter notebook with the data set to create the Model Weights
+1. Run ***Brainmodel.ipynb*** in jupyter notebook with the data set to create the Model Weights
 
 2. Install the dependencies by running:
    ```
@@ -20,7 +20,6 @@ This project is a deep learning-based image classification application that clas
    ```
 
 4. Visit the application in a browser (typically at `http://127.0.0.1:5000/`).
-
 5. Upload an image and receive the classification result.
 
 ---
